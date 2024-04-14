@@ -16,4 +16,5 @@ function clockTick() {
 function rotateClockHand(element, rotation) {
   element.style.setProperty("--rotate", rotation * 360);
 }
+
 setInterval(clockTick, 1000);
